@@ -35,14 +35,20 @@ header {
     flex-grow: 2;
 }
 
-ul {
+#header-top ul {
     text-align: center;
 }
 
-li {
+#header-top li {
     list-style-type: none;
     display: inline-block;
+    padding: 5px;
     margin: 0 20px;
+}
+
+#header-top a {
+    text-decoration-line: none;
+    color: white;
 }
 
 .right-column {
@@ -50,7 +56,7 @@ li {
     justify-content: flex-end;
 }
 
-.little-button {
+#header-top .little-button {
     padding: 10px;
     background-color: white;
     border: none;
@@ -58,20 +64,42 @@ li {
     background-color: ;
 }
 
-.header-bottom {
-    padding: 50px 0;
+#header-bottom {
+    padding-top: 50px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+#header-bottom h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#header-bottom p {
+    font-size: larger;
+    margin-bottom: 25px;
+}
+
+#header-bottom #left-button {
+    font-size: larger;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 25px;
+}
+
+#header-bottom #right-button {
+    font-size: larger;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
 }
 
 .container-intro {
-    width: 60%;
-    height: 300px;
+    width: 50%;
     margin: auto;
-}
-
-.container-intro .column {
-    width: 100%;
-    height: 100%;
-    background-color: yellow;
 }
 
 /* Corpo principale */
@@ -85,12 +113,12 @@ main section:nth-child(2) {
 }
 
 section .container {
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     flex-direction: row;
 }
 
-.big-column {
+/* .big-column {
     width: 60%;
     height: 100%;
     background-color: violet;
@@ -100,6 +128,10 @@ section .container {
     width: 40%;
     height: 100%;
     background-color: pink;
+} */
+
+.small-column h2 {
+    font
 }
 
 #last-section {
