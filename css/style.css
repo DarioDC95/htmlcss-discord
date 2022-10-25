@@ -59,7 +59,6 @@ header {
     background-color: white;
     border: none;
     border-radius: 20px;
-    background-color: ;
 }
 
 #header-bottom {
@@ -129,7 +128,7 @@ main section:nth-child(2) {
     background-color: pink;
 } */
 
-#section-img-left .card-description {
+.section-img-left .card-description {
     margin-top: 30px;
     padding-left: 100px;
 } 
