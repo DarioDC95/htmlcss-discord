@@ -134,15 +134,20 @@ main section:nth-child(2) {
     padding-left: 100px;
 } 
 
-#section-img-left h2 {
+section h2 {
     font-size: 40px;
     margin-bottom: 30px;
 }
 
-#section-img-left p {
+section p {
     font-size: larger;
     line-height: 1.5;
-}  
+}
+
+#section-img-right .card-description {
+    margin-top: 30px;
+    padding-right: 100px;
+}
 
 
 #last-section {
