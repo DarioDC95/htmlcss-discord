@@ -59,6 +59,7 @@ header {
     background-color: white;
     border: none;
     border-radius: 20px;
+    color: black;
 }
 
 #header-bottom {
@@ -241,7 +242,7 @@ footer ul a {
     color: white;
 }
 
-footer strong {
+.card-link strong {
     color: blueviolet;
 }
 
@@ -264,13 +265,28 @@ footer .column:nth-child(2), .column:nth-child(3), .column:nth-child(4), .column
     width: 17.5%;
 }
 
-hr {
+footer hr {
     width: 1100px;
     margin: 0 auto;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+}
+
+/* Seconda parte del Footer */
+footer .column-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .little-button {
+    padding: 10px;
+    background-color: rgb(88, 188, 221);
+    border: none;
+    border-radius: 20px;
+    color: white;
 }
 
 footer .container:last-child {
-    height: 50px;
     margin-top: 30px;
 }
 
@@ -281,5 +297,4 @@ footer .row:last-child {
 footer .column-logo, .column-link {
     height: 100%;
     width: 15%;
-    background-color: red;
 }
