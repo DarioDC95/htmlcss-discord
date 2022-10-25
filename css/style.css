@@ -23,12 +23,15 @@ header {
     padding: 20px 0;
 }
 
+#header-top .row {
+    align-items: center;
+}
+
 .row {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .center-column {
@@ -49,11 +52,6 @@ header {
 #header-top a {
     text-decoration-line: none;
     color: white;
-}
-
-.right-column {
-    display: flex;
-    justify-content: flex-end;
 }
 
 #header-top .little-button {
@@ -78,6 +76,7 @@ header {
 #header-bottom p {
     font-size: larger;
     margin-bottom: 25px;
+    line-height: 1.5;
 }
 
 #header-bottom #left-button {
@@ -112,11 +111,11 @@ main section:nth-child(2) {
     background-color: lightblue;
 }
 
-section .container {
-    /* height: 400px; */
+/* section .container {
+    height: 400px;
     display: flex;
     flex-direction: row;
-}
+} */
 
 /* .big-column {
     width: 60%;
@@ -130,9 +129,21 @@ section .container {
     background-color: pink;
 } */
 
-.small-column h2 {
-    font
+#section-img-left .card-description {
+    margin-top: 30px;
+    padding-left: 100px;
+} 
+
+#section-img-left h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
 }
+
+#section-img-left p {
+    font-size: larger;
+    line-height: 1.5;
+}  
+
 
 #last-section {
     background-color: lightblue;
