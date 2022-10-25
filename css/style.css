@@ -268,8 +268,8 @@ footer .column:nth-child(2), .column:nth-child(3), .column:nth-child(4), .column
 footer hr {
     width: 1100px;
     margin: 0 auto;
-    border: 1px solid blueviolet;
-    background-color: blueviolet;
+    border: 1px solid lightblue;
+    background-color: lightblue;
 }
 
 /* Seconda parte del Footer */
