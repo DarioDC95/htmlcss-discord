@@ -127,23 +127,17 @@ main section:nth-child(2) {
     background-color: lightblue;
 }
 
-/* section .container {
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-} */
-
-/* .big-column {
+.big-column {
     width: 60%;
-    height: 100%;
-    background-color: violet;
 }
 
 .small-column {
     width: 40%;
-    height: 100%;
-    background-color: pink;
-} */
+}
+
+.big-column img {
+    width: 100%;
+}
 
 .section-img-left .card-description {
     margin-top: 30px;
