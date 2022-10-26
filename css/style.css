@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* Introduzione e Logo */
@@ -57,20 +57,20 @@ header {
     margin: 0 20px;
 }
 
-#header-top a {
+#header-top li a {
     text-decoration-line: none;
     color: white;
 }
 
-#header-top .little-button {
+.little-button {
     padding: 10px;
     background-color: white;
     border: none;
     border-radius: 20px;
-    color: black;
+    color: black
 }
 
-#header-top .little-button:hover {
+.hover-button:hover {
     background-color: transparent;
     color: white;
     border: 1px solid white;
@@ -95,18 +95,18 @@ header {
     line-height: 1.5;
 }
 
-#header-bottom #left-button {
+.left-button {
     font-size: larger;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid white;
     border-radius: 20px;
     margin-right: 25px;
 }
 
-#header-bottom #right-button {
+.right-button {
     font-size: larger;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid black;
     border-radius: 20px;
     color: white;
     background-color: black;
@@ -187,10 +187,10 @@ section p {
     font-size: 25px;
 }
 
-#download-app {
+.download-app {
     font-size: larger;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid blueviolet;
     border-radius: 20px;
     color: white;
     background-color: blueviolet;
@@ -288,7 +288,7 @@ footer .column-link {
     justify-content: flex-end;
 }
 
-footer .little-button {
+.registration-button {
     padding: 10px;
     background-color: rgb(88, 188, 221);
     border: none;
