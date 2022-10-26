@@ -10,8 +10,6 @@
 header {
     width: 100%;
     color: white;
-    background-image: url("../img/jumbo.png");
-    background-size: cover;
 }
 
 .container {
@@ -21,6 +19,7 @@ header {
 
 #header-top {
     padding: 20px 0;
+    background-color: rgba(37,94,233,255);
 }
 
 #header-top .row {
@@ -63,9 +62,11 @@ header {
 }
 
 #header-bottom {
-    padding-top: 50px;
-    padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 150px;
     text-align: center;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 
 #header-bottom h1 {
