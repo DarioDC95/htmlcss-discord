@@ -33,9 +33,18 @@ header {
     flex-direction: row;
 }
 
+/* .left-column {
+    width: 20%;
+} */
+
 .center-column {
     flex-grow: 2;
 }
+
+/* .right-column {
+    width: 20%;
+    text-align: right;
+} */
 
 #header-top ul {
     text-align: center;
@@ -56,9 +65,14 @@ header {
 #header-top .little-button {
     padding: 10px;
     background-color: white;
-    border: none;
+    border: 1px solid white;
     border-radius: 20px;
     color: black;
+}
+
+#header-top .little-button:hover {
+    background-color: transparent;
+    color: white;
 }
 
 #header-bottom {
